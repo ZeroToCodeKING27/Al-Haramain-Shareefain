@@ -182,7 +182,7 @@ img {
   .section-heading .line- {
     width: 90px;
     height: 2px;
-    background-color: #cb8670;
+    background-color: #006582;
     display: block;
     margin-bottom: 40px; }
   .section-heading h2 {
@@ -363,13 +363,13 @@ img {
 
 /* :: 3.8.0 Palatin Button */
 .palatin-btn {
-  background-color: #cb8670;
+  background-color: #363636;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   position: relative;
   z-index: 1;
   display: inline-block;
-  min-width: 123px;
+  min-width: 123px;#363636
   height: 53px;
   color: #ffffff;
   border: none;
@@ -397,7 +397,7 @@ img {
     line-height: 48px; }
     .palatin-btn.btn-3:hover, .palatin-btn.btn-3:focus {
       font-size: 16px;
-      background-color: #cb8670;
+      background-color: #000000;
       color: #ffffff; }
 
 /* :: 4.0 Header Area CSS */
@@ -414,7 +414,8 @@ img {
     background-color: rgba(0, 0, 0, 0.63);
     border-bottom: 2px solid rgba(203, 134, 112, 0.63); }
     .header-area .palatin-main-menu .classy-nav-container {
-      background-color: transparent; }
+     background-color: rgb(0, 0, 0);
+    }
     .header-area .palatin-main-menu .classy-navbar {
       -webkit-transition-duration: 300ms;
       transition-duration: 300ms;
@@ -435,21 +436,19 @@ img {
         color: #ffffff;
         font-size: 16px;
         background-color: transparent; }
-        .header-area .palatin-main-menu .classy-navbar .classynav ul li a:hover, .header-area .palatin-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #ffffff;
-          background-color: #cb8670; }
+       
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .header-area .palatin-main-menu .classy-navbar .classynav ul li a {
             font-size: 14px; } }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .header-area .palatin-main-menu .classy-navbar .classynav ul li a {
-            background-color: #cb8670; } }
+            background-color: #6c6c6c; } }
         @media only screen and (max-width: 767px) {
           .header-area .palatin-main-menu .classy-navbar .classynav ul li a {
-            background-color: #cb8670; } }
+            background-color: #6c6c6c; } }
       .header-area .palatin-main-menu .classy-navbar .classynav ul li.active a {
         color: #ffffff;
-        background-color: #cb8670; }
+        background-color: #6c6c6c; }
       .header-area .palatin-main-menu .classy-navbar .classynav ul li.megamenu-item > a::after,
       .header-area .palatin-main-menu .classy-navbar .classynav ul li.has-down > a::after {
         color: #ffffff; }
@@ -500,10 +499,13 @@ img {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breakpoint-on .classy-navbar .classy-menu {
-    background-color: #cb8670; } }
+    background-color: #030303; } }
 @media only screen and (max-width: 767px) {
   .breakpoint-on .classy-navbar .classy-menu {
-    background-color: #cb8670; } }
+     transition-duration: 300ms;
+      background-color: transparent;
+    background-color: #030303;
+    } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .classynav ul li .megamenu .single-mega.cn-col-4 {
