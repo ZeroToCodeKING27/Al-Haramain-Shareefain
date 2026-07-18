@@ -362,6 +362,11 @@ img {
     background-color: #363636; }
 
 /* :: 3.8.0 Palatin Button */
+.tiktok-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
 .palatin-btn {
   background-color: #363636;
   -webkit-transition-duration: 500ms;
@@ -401,6 +406,14 @@ img {
       color: #ffffff; }
 
 /* :: 4.0 Header Area CSS */
+.social-icons i {
+    color: #000000; /* or #000 if your background is white */
+    font-size: 24px;
+}
+.social-icons i {
+    color: #fff; /* or #000 if your background is white */
+    font-size: 24px;
+}
 .header-area {
   position: absolute;
   z-index: 100;
