@@ -1685,7 +1685,13 @@ overflow:hidden;
 margin-bottom:30px;
 
 transition:.35s;
-
+ display: block;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #222;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
 }
 
 .product-card:hover{
@@ -1695,6 +1701,10 @@ transform:translateY(-6px);
 box-shadow:0 12px 30px rgba(0,0,0,.08);
 
 text-decoration:none;
+ width: 100%;
+    height: 300px;      /* Choose a height you like */
+    overflow: hidden;
+    background: #f8f8f8;
 
 }
 
@@ -1715,23 +1725,64 @@ justify-content:center;
 align-items:center;
 
 }
+/* Product Card */
+.product-card{
+    display: block;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #222;
+    transition: 0.3s ease;
+}
+
+/* Image Container */
+.product-image{
+    position: relative;
+    width: 100%;
+    height: 320px;      /* Adjust height if needed */
+    overflow: hidden;
+}
+
+/* Fill the Entire Space */
+.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Makes the image fill the container */
+    display: block;
+    transition: transform .4s ease;
+}
+
+/* Zoom Effect */
+.product-card:hover .product-image img{
+    transform: scale(1.08);
+}
+
+/* Product Details */
+.product-details{
+    padding: 15px;
+    text-align: center;
+}
+.product-image{
+    height: 350px;
+}
 
 .product-image img{
-
-max-height:260px;
-
-max-width:100%;
-
-transition:.4s;
-
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Makes every image fill the space */
+    display: block;
+    transition: transform .3s ease;
 }
 
-.product-card:hover img{
-
-transform:scale(1.06);
-
+.product-card:hover .product-image img{
+    transform: scale(1.05);
 }
-
 .sold-badge{
 
 position:absolute;
